@@ -1,0 +1,29 @@
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# MACOS
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+target/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+.gradle-cache/
+**/build/
+
+# 기타
+*.swp
+*.tmp
+*.bak
+*.backup
+*.orig
+*.rej
