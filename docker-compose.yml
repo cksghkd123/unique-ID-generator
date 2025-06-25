@@ -1,0 +1,36 @@
+services:
+  app1:
+    image: unique-id-generator:latest
+    container_name: uig1
+    ports:
+      - "8081:8080"
+    environment:
+      - NODE_ID=1
+      - BASED_TIME=2024-01-01T00:00:00Z
+
+  app2:
+    image: unique-id-generator:latest
+    container_name: uig2
+    ports:
+      - "8082:8080"
+    environment:
+      - NODE_ID=2
+      - BASED_TIME=2024-01-01T00:00:00Z
+
+  app3:
+    image: unique-id-generator:latest
+    container_name: uig3
+    ports:
+      - "8083:8080"
+    environment:
+      - NODE_ID=3
+      - BASED_TIME=2024-01-01T00:00:00Z
+
+  app4:
+    image: unique-id-generator:latest
+    container_name: uig4
+    ports:
+      - "8084:8080"
+    environment:
+      - NODE_ID=4
+      - BASED_TIME=2024-01-01T00:00:00Z
